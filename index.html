@@ -7,12 +7,92 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Master Calorie Tracker 21</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <!-- <link href="http://www.healthylivingheavylifting.com/5-reasons-you-need-to-count-calories/" rel="stylesheet"> -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel='stylesheet'>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <h1> Track those calories!</h1>
+  <div class="container">
+    <div id="banner">
+      <h1> Calorie Tracker</h1>
+      <image src="images/cooking.png" alt="randompicture" width="300">
+    </div>
+    <h2> Why should we track calories? </h2>
+
+    <p>
+
+      <ol class="list-group">
+        <li class="list-group-item"> Your body counts them, so you need to as well! </li>
+        <li class="list-group-item"> People suck at estimating calorie intake and expenditure </li>
+        <li class="list-group-item"> It makes monitoring progress easier </li>
+        <li class="list-group-item"> People who tell your calories don't count are usually promoting a guru system or dogmatic approach </li>
+        <li class="list-group-item"> It allows for dietary freedom </li>
+      </ol>
+
+      <p>
+
+        <a class="btn btn-primary" href="#"> Click here! </a>
+
+        <h2> My Calories </h2>
+
+        <table class="table table-striped">
+          <thead class="thead-darkgrey">
+            <tr>
+              <th scope="col">Food</th>
+              <th scope="col">Calories</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Apple <a href="https://www.coop.ch/" class="badge badge-primary"> <span class="badge badge-secondary">Get best Apples in town! </span> </a> </th>
+              <td>100</td>
+            </tr>
+            <tr>
+              <th scope="row">Pizza</th>
+              <td>1000</td>
+            </tr>
+            <tr>
+              <th scope="row">Nuts</th>
+              <td>340</td>
+            </tr>
+            <tr>
+              <th scope="row">Cottage Cheese</th>
+              <td>150</td>
+            </tr>
+            <tr>
+              <th scope="row">Cake</th>
+              <td>2700</td>
+            </tr>
+          </tbody>
+        </table>
+        <ul class="list-inline">
+          <li>
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="images/pizza.jpg" width="180" alt=" PizzaPic ">
+              <div class="card-body ">
+                <h5 class="card-title "><strong>Pizza Recipee</strong></h5>
+                <p class="card-text ">This is how you make the perfect napoletan pizza!</p>
+                <a href="https://www.jamieoliver.com/recipes/bread-recipes/basic-pizza/ " class="btn btn-primary ">Pizza</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card " style="width: 18rem; ">
+              <img class="card-img-top " src="images/cake.jpg" width="180" alt="CakePic ">
+              <div class="card-body ">
+                <h5 class="card-title "><strong>Cake Recipee</strong></h5>
+                <p class="card-text ">Lots of calories, but fun to make! My favourite recipee!</p>
+                <a href="https://www.jamieoliver.com/news-and-features/features/how-to-make-classic-chocolate-cake/ " class="btn btn-primary ">Cake</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+  </div>
+  </div>
+
 </body>
 
 </html>
